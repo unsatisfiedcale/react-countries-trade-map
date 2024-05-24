@@ -1,0 +1,112 @@
+.countries-list-container.europe_bdt_list .list-content .heading h3 {
+    display: block;
+    width: 100%;
+    font-family:'Oswald', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    margin-left: -18px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border-left: 6px solid #fff;
+    border-radius: 3px 0 0 3px;
+    color: rgb(43, 147, 226);
+} 
+.countries-list-container.america_list .list-content .heading h3 {
+    display: block;
+    width: 100%;
+    font-family:'Oswald', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    margin-left: -18px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border-left: 6px solid #fff;
+    border-radius: 3px 0 0 3px;
+    color: rgb(157, 68, 182);
+} 
+.countries-list-container.african_middleeast_list .list-content .heading h3 {
+    display: block;
+    width: 100%;
+    font-family:'Oswald', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    margin-left: -18px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border-left: 6px solid #fff;
+    border-radius: 3px 0 0 3px;
+    color: rgb(226, 147, 43);
+} 
+.countries-list-container.asia_pasific_list .list-content .heading h3 {
+    display: block;
+    width: 100%;
+    font-family:'Oswald', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    margin-left: -18px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border-left: 6px solid #fff;
+    border-radius: 3px 0 0 3px;
+    color: rgb(65, 181, 85);
+} 
+
+.countries-list-container .list-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Öğeleri yatayda ortalamak için */
+  }
+  
+  .countries-list-container .list-content li {
+    display: inline-block;
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .countries-list-container .list-content ul li span.country-has-data {
+    font-weight: 600;
+    color: #2e2e2e;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* İçeriği dikeyde ortalamak için */
+    transition: color 0.3s;
+    cursor: pointer;
+  }
+  
+  .countries-list-container .list-content ul li:hover span.country-has-data {
+    color: rgb(43, 147, 226);
+  }
+  
+  .country-has-data:hover + .discription {
+    display: block;
+    padding: 0.75rem; /* Adjust padding for top and left */
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    width: 8.5rem;
+    height: auto; /* Change height to auto to adjust based on content */
+    background: rgb(43, 147, 226);
+    margin-left: 1%;
+    z-index: 1;
+}
+
+.discription {
+    display: none;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+}
