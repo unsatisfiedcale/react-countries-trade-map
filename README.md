@@ -1,3 +1,14 @@
+# Colorful World Map with React-jvectormap
+
+## Project Functionality
+
+This project includes a world map with country borders created using the React-jvectormap/world and React-jvectormap/core libraries. Import data for each country has been designated as descriptions based on their 'value' attribute. Countries are grouped according to their geographical regions, and besides being displayed on the map, access to import data by country name is also provided. The countries are also grouped with specific color gradients based on numerical value ranges of their data on the world map.
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
